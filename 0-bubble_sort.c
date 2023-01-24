@@ -1,6 +1,14 @@
 #include <stdlib.h>
 #include "sort.h"
 
+
+/**
+ * bubble_sort - the bubble sort algorithm
+ * @array: the array to sort
+ * @size: the size
+ * 
+ * Return: void
+*/
 void bubble_sort(int *array, size_t size)
 {
 	int i, swap_number = 0;
